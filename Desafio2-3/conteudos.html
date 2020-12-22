@@ -4,6 +4,7 @@
     <head>
         <link rel="icon" href="favicon.ico" type="image/x-icon" />
         <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
         <title>Desafio 2-3: Página de posts e iframe</title>
     </head>
 
@@ -23,7 +24,7 @@
         </div>
 
         <section class="cards">
-            <div class="card">
+            <div class="card" id="dark-mode-com-css-mudando-a-aparencia-do-blog-de-maneira-simples-e-rapida">
                 <div class="CardImgContainer">
                     <img src="https://blog.rocketseat.com.br/content/images/2020/10/dark-mode-com-css-mudando-a-aparencia-do-blog-de-maneira-simples-e-rapida.jpg" alt="Dark Mode com CSS">
                 </div>
@@ -38,7 +39,7 @@
                 </div>
             </div>
 
-            <div class="card">
+            <div class="card" id="introducao-a-testing-library-testando-componentes-react">
                 <div class="CardImgContainer">
                     <img src="https://blog.rocketseat.com.br/content/images/2020/08/introducao-a-testing-library-testando-componentes-react.png" alt="Introdução à Testing Library">
                 </div>
@@ -53,7 +54,7 @@
                 </div>
             </div>
 
-            <div class="card">
+            <div class="card" id="introducao-ao-docker-criando-um-servidor-web-com-node-js-e-subindo-para-o-container">
                 <div class="CardImgContainer">
                     <img src="https://blog.rocketseat.com.br/content/images/2020/08/introducao-ao-docker.png" alt="Introdução ao Docker">
                 </div>
@@ -69,6 +70,24 @@
             </div>
 
         </section>
+
+        <div class="ModalOverlay">
+            <div class="modal">
+                <a class="MaximizeModal">
+                    <i class="material-icons">maximize</i>
+                </a>
+
+                <a class="CloseModal">
+                    <i class="material-icons">close</i>
+                </a>
+
+                <div class="ModalContent">
+                    <iframe src="" frameborder="0"></iframe>
+                </div>
+            </div>
+        </div>
+
+        <script src="scripts.js"></script>
 
 
         <div id="linksFooter" class="links">
